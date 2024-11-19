@@ -20,7 +20,7 @@ console.log(str2.substr(4, 10))
 console.log(str2.substr(-4, 10))
 console.log(str2.replace("never", "sudharshini"))
 console.log(str2.replace("Up", "give"))
-console.log(str2.replaceAll("u", "sudharshini"))
+console.log(str2.replaceAll("u", "sudharshini "))
 console.log(str2.toLowerCase())
 console.log(str2.toUpperCase())
 console.log(str2.length)
@@ -31,7 +31,9 @@ console.log(str2.trimEnd())
 let bill = 'Rs.10'
 console.log(bill.length)
 console.log(bill.padStart(7, '0'))
+console.log(bill.padStart(10, "wwwww"))
 console.log(bill.padStart(3, "Rs"))
+console.log(bill.padEnd(9, "paid"))
 
 
 
