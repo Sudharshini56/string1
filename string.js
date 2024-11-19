@@ -1,5 +1,5 @@
 let str1 = "if you want to try this"
-let str2 = "   but never give up  "
+let str2 = "but never give up  "
 
 console.log(str1 + str2)
 
@@ -27,3 +27,24 @@ console.log(str2.length)
 console.log(str2.trim())
 console.log(str2.trimStart())
 console.log(str2.trimEnd())
+
+let bill = 'Rs.10'
+console.log(bill.length)
+console.log(bill.padStart(7, '0'))
+console.log(bill.padStart(3, "Rs"))
+
+
+
+console.log(str2[1])
+console.log(str2[10])
+console.log(str2.charAt(1))
+console.log(str2.charCodeAt(1))
+
+console.log(str2.indexOf("b"))
+console.log(str2.lastIndexOf("u"))
+console.log(str2.search("never"))
+console.log(str2.search("nott"))
+console.log(str2.includes("never"))
+console.log(str2.startsWith("but"))
+console.log(str2.endsWith("up"))
+console.log(str2.replace(/give/g, "never"))
