@@ -92,24 +92,100 @@
 // console.log(str4.trimEnd())
 // console.log(str4.trimStart())
 
-let firstName = "Sudharshini"
-let lastName = "Sudharshini"
-let county = "USA"
-console.log(`My name is ${firstName} ${lastName} I Live in ${county}`)
+// let firstName = "Sudharshini"
+// let lastName = "Sudharshini"
+// let county = "USA"
+// console.log(`My name is ${firstName} ${lastName} I Live in ${county}`)
 
-let wish = `Good
-Morning`
-console.log(`${wish}`)
+// let wish = `Good
+// Morning`
+// console.log(`${wish}`)
 
-let birthday = `Happy birthday
-to you
-sudharshini
-2024`
-console.log(`${birthday}`)
+// let birthday = `Happy birthday
+// to you
+// sudharshini
+// 2024`
+// console.log(`${birthday}`)
 
-let msg = (`dog's name is "Brown"`)
-console.log(msg.replace("dog's", "cat's"))
+// let msg = (`dog's name is "Brown"`)
+// console.log(msg.replace("dog's", "cat's"))
 
-let iteam = ["apple", "book", "sope", "dress", "water"]
-let amount = (`95 $`)
-console.log(`you have 5 iteams ${iteam} your bill amount is ${amount} `)
+// let iteam = ["apple", "book", "sope", "dress", "water"]
+// let amount = (`95 $`)
+// console.log(`you have 5 iteams ${iteam} your bill amount is ${amount} `)
+
+// let number = ["one", "two", "tree", "four", "five"]
+// console.log(number.length)
+// console.log(number.length - 1)
+// console.log(number[number.length - 1])
+// console.log(number[0])
+
+// let array = [1, 2, 3, 'a', "abc", [1, 2]]
+// console.log(array[3])
+// console.log(array[4, 0])
+// console.log(array[4][0])
+// console.log(array[5, 1])
+
+// let array = [
+//     [1, 2, 3],
+//     [4, 5, 6],
+//     [7, 8, 9]
+// ]
+// console.log(array[0][0])
+// console.log(array[0][1])
+
+// let array = ['a', 'b', 'c', 'd', 'e']
+// array.push('f')
+// console.log(array)
+
+// array.pop()
+// console.log(array)
+
+// array.shift('a')
+// console.log(array)
+
+// array.unshift('a')
+// console.log(array)
+
+// let array = ['a', 'b', 'c', 'd', 'e']
+// array.splice(2, 1)
+// console.log(array)
+
+// array.splice(2, 2)
+// console.log(array)
+
+// array.splice(1, 1, "m")
+// console.log(array)
+
+// array.splice(1, 2, "x", "y")
+// console.log(array)
+
+// array.splice(1, 0, "y", "z")
+// console.log(array)
+
+// console.log(array.slice(1, 3))
+
+// console.log(array.reverse())
+
+// let array = ['a', 'b', 'c', 'd', 'e']
+// let string = array.join()
+// console.log(string)
+
+// let str = "a,b, c, d, e"
+// let arr = str.split(',')
+// console.log(arr)
+
+// let array = ['a', 'b', 'c', 'd', 'e']
+// let string = array.join()
+// console.log(string)
+
+// let string1 = "a,b,c,d,e"
+// let array1 = string1.split(",")
+// console.log(array1)
+
+let array1 = [1, 2, 3]
+let array2 = [4, 5, 6]
+console.log(array1.concat(array2))
+
+console.log(array1 + array2)
+console.log(...array1, ...array2)
