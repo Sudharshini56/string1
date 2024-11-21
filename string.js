@@ -229,15 +229,33 @@ let max;
 
 
 //object
+// let iteam = {
+//     name: 'iphone', //key valu pair
+//     price: 25000,
+//     quantity: 1
+// }
+// console.log(iteam)
+
+// let iteam2 = new Object();
+// iteam2.name = 'charger'
+// iteam2.price = 700
+// iteam.quantity = 1
+// console.log(iteam2)
+
+//Here create new object 
 let iteam = {
-    name: 'iphone', //key valu pair
-    price: 25000,
+    name: 'TV',
+    price: 30000,
     quantity: 1
 }
 console.log(iteam)
 
-let iteam2 = new Object();
-iteam2.name = 'charger'
-iteam2.price = 700
-iteam.quantity = 1
-console.log(iteam2)
+
+//another example for iteam
+
+
+let iteam3 = new Object();
+iteam3.name = 'tv',
+    iteam3.color = balck,
+    iteam3.auantity = 1
+console.log(iteam3)
