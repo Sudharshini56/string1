@@ -191,6 +191,53 @@
 // console.log(...array1, ...array2)
 
 
-let words = prompt("Type here");
-let result = words.length
-console.log(Number(result) + " " + words.trim())
+//Calculate Words
+// let words = prompt("Type here");
+// let result = words.length
+// console.log(Number(result) + " " + words.trim())
+
+
+
+// let password = true
+// if (password) {
+//     console.log("Enter your password: ")
+// } else {
+//     console.log("Try again")
+// }
+// console.log("Bye")
+
+let age = 80
+let gender = 'female'
+if (age > 60 && gender === 'female') {
+    console.log("You can find discount")
+}
+
+let a = 20
+let b = 30;
+let max;
+
+// if (a < b) {
+//     max = a
+// } else {
+//     max = b
+// }
+// console.log(max)
+
+//
+// max = a > b ? a : b
+// console.log(max)
+
+
+//object
+let iteam = {
+    name: 'iphone', //key valu pair
+    price: 25000,
+    quantity: 1
+}
+console.log(iteam)
+
+let iteam2 = new Object();
+iteam2.name = 'charger'
+iteam2.price = 700
+iteam.quantity = 1
+console.log(iteam2)
