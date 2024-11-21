@@ -206,15 +206,15 @@
 // }
 // console.log("Bye")
 
-let age = 80
-let gender = 'female'
-if (age > 60 && gender === 'female') {
-    console.log("You can find discount")
-}
+// let age = 80
+// let gender = 'female'
+// if (age > 60 && gender === 'female') {
+//     console.log("You can find discount")
+// }
 
-let a = 20
-let b = 30;
-let max;
+// let a = 20
+// let b = 30;
+// let max;
 
 // if (a < b) {
 //     max = a
@@ -243,19 +243,35 @@ let max;
 // console.log(iteam2)
 
 //Here create new object 
+// let iteam = {
+//     name: 'TV',
+//     price: 30000,
+//     quantity: 1
+// }
+// console.log(iteam)
+
+
+// //another example for iteam
+// let iteam3 = new Object();
+// iteam3.name = 'tv',
+//     iteam3.color = balck,
+//     iteam3.auantity = 1
+// console.log(iteam3)
+
+// create new Object
+
 let iteam = {
-    name: 'TV',
+    name: 'tv',
     price: 30000,
+    color: 'black',
     quantity: 1
 }
 console.log(iteam)
 
 
-//another example for iteam
-
-
-let iteam3 = new Object();
-iteam3.name = 'tv',
-    iteam3.color = balck,
-    iteam3.auantity = 1
-console.log(iteam3)
+let iteam5 = new Object();
+iteam5.name = 'tv';
+iteam5.price = 50000;
+iteam5.color = 'black';
+iteam5.quantity = 1
+console.log(iteam5)
