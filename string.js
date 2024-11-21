@@ -106,3 +106,6 @@ to you
 sudharshini
 2024`
 console.log(`${birthday}`)
+
+let msg = (`dog's name is "Brown"`)
+console.log(msg.replace("dog's", "cat's"))
