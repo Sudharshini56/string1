@@ -109,3 +109,7 @@ console.log(`${birthday}`)
 
 let msg = (`dog's name is "Brown"`)
 console.log(msg.replace("dog's", "cat's"))
+
+let iteam = ["apple", "book", "sope", "dress", "water"]
+let amount = (`95 $`)
+console.log(`you have 5 iteams ${iteam} your bill amount is ${amount} `)
