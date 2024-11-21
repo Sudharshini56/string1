@@ -183,9 +183,14 @@
 // let array1 = string1.split(",")
 // console.log(array1)
 
-let array1 = [1, 2, 3]
-let array2 = [4, 5, 6]
-console.log(array1.concat(array2))
+// let array1 = [1, 2, 3]
+// let array2 = [4, 5, 6]
+// console.log(array1.concat(array2))
 
-console.log(array1 + array2)
-console.log(...array1, ...array2)
+// console.log(array1 + array2)
+// console.log(...array1, ...array2)
+
+
+let words = prompt("Type here");
+let result = words.length
+console.log(Number(result) + " " + words.trim())
