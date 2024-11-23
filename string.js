@@ -84,3 +84,72 @@ if (testScore >= 88) {
     }
 
 }
+
+//Switch 
+
+switch ("1") {
+    case 1:
+        console.log(1)
+        break;
+    case ("2"):
+        console.log(2)
+        break;
+    default:
+        console.log("No match")
+}
+
+switch (Math.floor(Math.random() * 4)) {
+    case 1:
+        console.log(1);
+        break;
+    case 2:
+        console.log(2);
+        break;
+    default:
+        console.log("No match")
+
+}
+
+
+switch (Math.floor(Math.random() * 100)) {
+    case 1:
+        console.log(1);
+        break;
+    case 2:
+        console.log(2);
+        break;
+    default:
+        console.log("Try again")
+}
+
+
+let player = "rock";
+let computer = "scissors";
+
+
+switch (player) {
+    case computer:
+        console.log("Tie");
+        break;
+
+    case "rock":
+        if (computer === "scissors") {
+            console.log("player's win");
+        }
+        break;
+
+    case "scissors":
+        if (player === "paper") {
+            console.log("player's win");
+        }
+        break;
+
+    case "paper":
+        if (computer === "scirssors") {
+            console.log("player's win");
+        }
+        break;
+
+    default:
+        console.log("No Tie!");
+}
